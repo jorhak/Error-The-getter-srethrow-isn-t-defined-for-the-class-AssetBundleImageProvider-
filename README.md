@@ -38,12 +38,13 @@ Exception: Gradle task assembleDebug failed with exit code 1
 ```
 
 _me salio este error y lo solucione haciendo lo siguiente_
-_* me dirigi al archivo que estaba en mi caso en la direccion ../Android/flutter/packages/flutter/lib/src/painting/image_provider.dart como me salia_
-_en el error_
-_*una vez ahi me dirigi a la linea 672 en esa linea estaba escrito lo siguiente:_
-_srethrow;_
-_*lo que hice fue reemplazarla con: rethrow;_
-_*hecho esto se soluciono el problema._
+* me dirigi al archivo que estaba en mi caso en la direccion ../Android/flutter/packages/flutter/lib/src/painting/image_provider.dart como me salia
+en el error
+*una vez ahi me dirigi a la linea 672 en esa linea estaba escrito lo siguiente:
+   srethrow;
+*lo que hice fue reemplazarla con: rethrow;
+*hecho esto se soluciono el problema.
+
 ## Ahora cuando lo ejecuto me sale lo siguiente: ✔️✔️✔️
 ```
 Your Flutter application is created using an older version of the Android
