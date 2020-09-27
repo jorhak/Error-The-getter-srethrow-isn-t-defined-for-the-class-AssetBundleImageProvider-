@@ -38,9 +38,9 @@ Exception: Gradle task assembleDebug failed with exit code 1
 ```
 ## Solución
 _me salio este error y lo solucione haciendo lo siguiente_
+
 * me dirigi al archivo que estaba en mi caso en la direccion ../Android/flutter/packages/flutter/lib/src/painting/image_provider.dart como me salia en el error
-*una vez ahi me dirigi a la linea 672 en esa linea estaba escrito lo siguiente:
-   _srethrow;_
+*una vez ahi me dirigi a la linea 672 en esa linea estaba escrito lo siguiente: srethrow;
 *lo que hice fue reemplazarla con: rethrow;
 *hecho esto se soluciono el problema.
 
