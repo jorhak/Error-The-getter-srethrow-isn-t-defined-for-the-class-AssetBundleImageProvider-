@@ -41,7 +41,7 @@ _me salio este error y lo solucione haciendo lo siguiente_
 
 * me dirigi al archivo que estaba en mi caso en la direccion ../Android/flutter/packages/flutter/lib/src/painting/image_provider.dart como me salia en el error
 * una vez ahi me dirigi a la linea 672 en esa linea estaba escrito lo siguiente: srethrow;
-![error]()
+![error](https://github.com/jorhak/Error-The-getter-srethrow-isn-t-defined-for-the-class-AssetBundleImageProvider-/blob/master/solucion.png)
 * lo que hice fue reemplazarla con: rethrow;
 ![solucion](https://github.com/jorhak/Error-The-getter-srethrow-isn-t-defined-for-the-class-AssetBundleImageProvider-/blob/master/error.png)
 * hecho esto se soluciono el problema.
